@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.grid-f-a {
+		grid-template-columns: 1fr auto;
+	}
+}
