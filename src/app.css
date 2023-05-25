@@ -1,3 +1,5 @@
+@import url('$lib/client/style/loading.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,5 +7,19 @@
 @layer utilities {
 	.grid-f-a {
 		grid-template-columns: 1fr auto;
+	}
+}
+
+@layer base {
+	a {
+		@apply text-blue-200;
+	}
+
+	a:hover {
+		@apply text-blue-300;
+	}
+
+	a:active {
+		@apply text-blue-400;
 	}
 }

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import type { ActionData, PageData, SubmitFunction } from './$types';
+	import type { PageData, SubmitFunction } from './$types';
 
 	export let data: PageData;
 
@@ -46,7 +46,3 @@
 		{#if !loading}Add{/if}
 	</button>
 </form>
-
-<style>
-	@import '$lib/client/style/loading.css';
-</style>
